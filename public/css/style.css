@@ -1,0 +1,71 @@
+body{font-family: 'Indie Flower', cursive;}
+a{color: #ffffff;}
+a:hover, a:focus{color: #fff; text-decoration: underline;}
+.ptop15{padding-top: 15px;}
+.pright15{padding-right: 15px;}
+.header-spacing{padding: 19px 28px;}
+.header-text {text-align: center; font-size: 20px; font-style: italic; padding-top: 5px; padding-right: 0px;}
+.header-text-search {text-align: center; font-size: 20px; font-style: italic; padding-top: 5px; padding-right: 0px; padding-left: 0px;}
+.clickable {cursor: pointer;}
+.gold-color{color: #DAA520; }
+.search-hide {display: none;}
+.search-menu-p{padding-left: 0px; padding-right: 0px;}
+.search-form{font-size: 30px; border:none; outline: none; line-height: 28px; text-align: center; width: 70%;}
+.abso {position: absolute; left: 0px;}
+.slide-nav{background-color: #000; width: 50%; position: absolute; z-index: 1000; color: #ffffff; display: block; right: 15px; top: 0;}
+.slide-nav-hide{display: none;}
+.main-content-shift {margin-left: -52%; overflow: hidden; width: 100%;}
+#slide-nav > nav > ul {margin: 0 10%; font-size: 20px;}
+.login { padding: 10px 0 27.5px; margin-bottom: 27.5px; border-bottom: 1px solid #ffffff; overflow: hidden;}
+.section { padding: 0 0 5px; margin-bottom: 27.5px; border-bottom: 1px solid #ffffff; overflow: hidden;}
+.main-area-slide-menu {line-height: 2.36363636; font-size: 22px;}
+
+/*
+apple ipad / ipad mini 1024, 768
+iphone 4 - 320, 480
+iphone 5 - 320, 568
+iphone 6 - 375, 667
+google nexus 10 - 1280, 800
+*/
+
+/*Extra small devices Phones (<768px) col-xs*/
+@media only screen and (max-width : 550px) {
+.col-xs-2 {width: 25%;}
+.col-xs-10 {width: 75%;}
+.search-form{font-size: 20px;}
+.header-text {padding-left: 0px;}
+
+}
+
+@media only screen and (max-width : 767px) {
+.search-p{padding-right: 15px;}
+.hidden-bar{display:none;}
+.abso {left: -40px;}
+.main-content-shift {margin-left: -82%;}
+.slide-nav{width: 75%;}
+}
+
+/*Small devices Tablets (≥768px) col-sm*/
+@media only screen and (min-width : 768px) {
+.search-p{padding-right: 5px;}
+
+}
+
+/*Medium devices Desktops (≥992px) col-md*/
+@media only screen and (min-width : 992px) {
+.search-p{padding-right: 15px;}
+
+}
+
+/*Large devices Desktops (≥1200px) col-lg*/
+@media only screen and (min-width : 1200px) {
+.search-p{padding-right: 15px;}
+
+}
+
+
+
+
+
+
+
